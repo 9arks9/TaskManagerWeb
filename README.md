@@ -16,7 +16,7 @@ Easily add, edit, prioritize, and track tasks with sorting and filtering capabil
 
 ## 📸 Screenshots
 
-![screenshot](screenshots/task-manager-preview.png)
+![screenshot](task-manager-preview.png)
 
 ## 📦 Technologies Used
 
