@@ -14,7 +14,7 @@ Easily add, edit, prioritize, and track tasks with sorting and filtering capabil
 - 📂 Show completed tasks at the top
 - 💾 All data is stored in the browser using `localStorage`
 
-## 📸 Screenshots
+## 📸 App preview
 
 ![screenshot](task-manager-preview.png)
 
