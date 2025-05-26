@@ -30,6 +30,6 @@ Easily add, edit, prioritize, and track tasks with sorting and filtering capabil
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/task-manager.git
-   cd task-manager
+   git clone https://github.com/9arks9/TaskManagerWeb.git
+   cd TaskManagerWeb
 
