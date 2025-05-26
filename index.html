@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1 class="fancy-title">Task Manager</h1>
+    <div class="controls">
+      <button onclick="openModal()">Add Task</button>
+      <button onclick="sortByPriority()">Sort by Priority</button>
+      <button onclick="toggleSortByDate()">Sort by Date</button>
+    </div>
+    <div id="taskList" class="task-list"></div>
+  </div>
+
+  <div id="newTaskModal" class="modal">
+    <div class="modal-content">
+      <h2>New Task</h2>
+      <input id="titleInput" placeholder="Title"/>
+      <textarea id="descInput" placeholder="Description"></textarea>
+      <select id="priorityInput">
+        <option value="1">High</option>
+        <option value="2">Medium</option>
+        <option value="3" selected>Low</option>
+      </select>
+      <input type="hidden" id="editIndex"/>
+      <div class="modal-buttons">
+        <button onclick="saveTask()">Save</button>
+        <button onclick="closeModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <audio id="completeSound" src="https://www.soundjay.com/buttons/sounds/button-4.mp3" preload="auto"></audio>
+</body>
+</html>
